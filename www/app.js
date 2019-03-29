@@ -23,6 +23,7 @@ function initApp() {
     .fail(function() {
       console.log('ajax home content error');
     });
+
   //--- Admob in ads.js ----
   initAds();
 }
@@ -46,4 +47,8 @@ function loadTestContent() {
   $('#navbar-test').addClass('ui-btn-active');
   $('#navbar-home, #navbar-about').removeClass('ui-btn-active');
   window.scrollTo(0, 0);
+}
+
+function handleOptions(e) {
+  console.log('ok...');
 }
