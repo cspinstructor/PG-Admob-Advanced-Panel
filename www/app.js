@@ -49,6 +49,7 @@ function loadTestContent() {
   window.scrollTo(0, 0);
 }
 
-function handleOptions(e) {
-  console.log('ok...');
+function handleOptions() {
+  console.log('ok... from handleOptions()');
+  loadHomeContent();
 }
